@@ -2,7 +2,7 @@ FROM babim/alpinebase:3.9
 
 ENV SOFT=duplicacy \
     ARCHITECTURE=linux_x64 \
-    VERSION_DUPLICACY=2.2.0  \
+    VERSION_DUPLICACY=2.2.3  \
     VERSION_DUPLICACY_WEB=1.0.0
 
 # download option
