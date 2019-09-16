@@ -33,7 +33,7 @@ Duplicacy identifies the machine via the hostname and [`machine-id`](https://www
     1. **Option 3**. Bake `/var/lib/dbus/machine-id` into a custom image. e.g. in a `Dockerfile`
     
        ```yaml
-       FROM erichough/docker-duplicacy
+       FROM babim/docker-duplicacy
        COPY files/machine-id /var/lib/dbus/machine-id
        ```
 
