@@ -1,0 +1,2 @@
+# duplicacy
+Duplicacy Web Edition
